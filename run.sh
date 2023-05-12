@@ -9,4 +9,4 @@ echo "Running python scripts svm.py"
 echo "select top-left and bottom-right corners of the object"
 python src/svm.py "$img_path"
 echo "visulaizing 3d model"
-C:/Users/aarya/Downloads/view3dscene-4.2.0-win64-x86_64/view3dscene/view3dscene 3d_model.wrl
+view3dscene 3d_model.wrl

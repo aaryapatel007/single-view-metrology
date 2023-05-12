@@ -20,7 +20,7 @@ def mouse_callback(event, x, y, flags, param):
 if(len(sys.argv) == 2):
     file_path = sys.argv[1]
 else:
-    file_path = 'input_imgs/image_pk.jpg'
+    file_path = 'input_imgs/image1.jpg'
 
 img = cv2.imread(file_path)
 

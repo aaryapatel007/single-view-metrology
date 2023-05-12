@@ -8,7 +8,7 @@ import sys
 if(len(sys.argv) == 2):
     file_path = sys.argv[1]
 else:
-    file_path = 'input_imgs/image_pk.jpg'
+    file_path = 'input_imgs/image1.jpg'
 
 image = cv2.imread(file_path)
 
